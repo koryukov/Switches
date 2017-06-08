@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="4105aa78-a7e5-49b2-b5e4-cc596527d306" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>В настоящем документе содержится описание набора готовых классов, процедур, функций, структур и констант, предоставляемых библиотекой для использования во внешних программных продуктах.</para>
+      <para>Библиотека Switches содержит объекты, позволяющие проводить моделирование работы коммутационных аппаратов, а также взаимодействовать с их реальными прототипами.</para>
+		</introduction>
+
+		<section>
+			<title>Начало работы</title>
+			<content>
+				<para>Чтобы начать использование инструментов библиотеки, сохраните ресурсы библиотеки на локальном компьютере и добавьте в своём проекте ссылку на сборку <localUri address="Switches.dll">Switches.dll</localUri>. 
+        Библитоека включает в себя следующие ресурсы:</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><localUri>Switches.dll</localUri> - скомпилированный файл библиотеки.</para>
+					</listItem>
+          <listItem>
+						<para><localUri>Switches.dll.config</localUri> - конфигурационный файл, задающий глобальне настройки.</para>
+					</listItem>
+					<listItem>
+						<para><localUri>Switches.xml</localUri> - компонент <externalLink><linkText>IntelliSense</linkText><linkUri>https://ru.wikipedia.org/wiki/IntelliSense</linkUri></externalLink>.</para>
+					</listItem>
+					<listItem>
+						<para><localUri>Switches.pdb</localUri> - файл для отладки. При возникновении исключений обеспечивает подробную информацию о стеке вызовов.</para>
+					</listItem>
+
+					<listItem>
+						<para><localUri>Documentation.chm</localUri> - файл контекстной справки, содержащий описание библиотеки.</para>
+					</listItem>
+				</list>
+
+				<para>Описание членов библиотеки и примеры их использования находятся в разделе <codeEntityReference autoUpgrade="true">N:PWDA.Switches</codeEntityReference> настоящей документации.</para>
+        <para>Актуальная версия библиотеи доступна для загрузки со <externalLink><linkText>страницы</linkText><linkAlternateText>Загрузить библиотеку</linkAlternateText><linkUri>https://drive.pwda.ru/d/766dd7511d/?dl=1</linkUri>
+        </externalLink> файлового хранилища СПА.</para>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="baacd2f3-3096-40e5-b336-5c7ec74933e0" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

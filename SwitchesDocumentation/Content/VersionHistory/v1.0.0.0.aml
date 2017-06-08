@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d1aed33c-a75e-4566-80e5-1aa2d4a2a002" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Версия 1.0.0.0 от <date>[TODO: Date]</date>.
+			</para>
+		</introduction>
+
+		<section>
+			<title>Внесённые изменения</title>
+			<content>
+        <para>Первый релиз библиотеки.</para>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="baacd2f3-3096-40e5-b336-5c7ec74933e0" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="baacd2f3-3096-40e5-b336-5c7ec74933e0" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Темы в этом разделе описываются различные изменения, внесенные в библиотеку в ходе развития проекта.</para>
+		</introduction>
+
+		<section>
+			<title>История версий</title>
+			<content>
+				<para>Выберите версию ниже, чтобы посмотреть описание внесённых изменений.</para>
+				<list class="bullet">
+					<listItem>
+						<para><link xlink:href="d1aed33c-a75e-4566-80e5-1aa2d4a2a002" /></para>
+					</listItem>
+				</list>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="4105aa78-a7e5-49b2-b5e4-cc596527d306" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

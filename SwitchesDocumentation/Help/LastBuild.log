@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\SwitchesDocumentation.shfbproj" started="13.10.2016 16:07:16">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+   D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Output Deployment Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Lightweight Website Style Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\PWDA\Разработка ПО\Switches\Switches\Switches.vbproj
+    Found project &#39;D:\PWDA\Разработка ПО\Switches\Switches\Switches.vbproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\Seafile\Готовое ПО СПА\Switches\Switches.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    D:\Seafile\Готовое ПО СПА\Switches\Switches.xml -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Switches.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (ru-RU, Русский (Россия))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0175
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 13.10.2016 16:07:17.
+Џа&#174;ҐЄв &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\GenerateRefInfo.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+PrepareForBuild:
+  ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 14 types, and 67 members
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.org&quot; ў &quot;reflection.all&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\GenerateRefInfo.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.51
+    Last step completed in 00:00:00,6219
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 13.10.2016 16:07:18.
+Џа&#174;ҐЄв &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\TransformManifest.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+TransformManifest:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.xml&quot; ў &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_PWDA_Switches_Coil__ctor_1 generated for M:PWDA.Switches.Coil.#ctor(PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Coil__ctor_2 generated for M:PWDA.Switches.Coil.#ctor(System.String)
+    Unique name M_PWDA_Switches_Coil__ctor_3 generated for M:PWDA.Switches.Coil.#ctor(System.String,PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Contact__ctor_1 generated for M:PWDA.Switches.Contact.#ctor(PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Contact__ctor_2 generated for M:PWDA.Switches.Contact.#ctor(System.String)
+    Unique name M_PWDA_Switches_Contact__ctor_3 generated for M:PWDA.Switches.Contact.#ctor(System.String,PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Convertor_ToState_1 generated for M:PWDA.Switches.Convertor.ToState(System.String)
+    Unique name M_PWDA_Switches_NetworkRelay__ctor_1 generated for M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,PWDA.Switches.Contact,System.Boolean)
+    Unique name M_PWDA_Switches_NetworkRelay__ctor_2 generated for M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,System.Boolean)
+    Unique name M_PWDA_Switches_NetworkRelay__ctor_3 generated for M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,System.Collections.Generic.List{PWDA.Switches.Contact},System.Boolean)
+    Unique name M_PWDA_Switches_NetworkRelay_Download_1 generated for M:PWDA.Switches.NetworkRelay.Download(System.String)
+    Unique name M_PWDA_Switches_NetworkRelay_Upload_1 generated for M:PWDA.Switches.NetworkRelay.Upload(System.String)
+    Unique name M_PWDA_Switches_Relay__ctor_1 generated for M:PWDA.Switches.Relay.#ctor(PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Relay__ctor_2 generated for M:PWDA.Switches.Relay.#ctor(System.String)
+    Unique name M_PWDA_Switches_Relay__ctor_3 generated for M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State)
+    Unique name M_PWDA_Switches_Relay__ctor_4 generated for M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State,PWDA.Switches.Contact)
+    Unique name M_PWDA_Switches_Relay__ctor_5 generated for M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State,System.Collections.Generic.List{PWDA.Switches.Contact})
+    Unique name M_PWDA_Switches_Relay_GetContact_1 generated for M:PWDA.Switches.Relay.GetContact(System.String)
+    Unique name M_PWDA_Switches_Relay_GetContacts_1 generated for M:PWDA.Switches.Relay.GetContacts(System.String)
+    Unique name M_PWDA_Switches_SimpleSwitch__ctor_1 generated for M:PWDA.Switches.SimpleSwitch.#ctor(PWDA.Switches.State)
+    Unique name M_PWDA_Switches_SimpleSwitch__ctor_2 generated for M:PWDA.Switches.SimpleSwitch.#ctor(System.String)
+    Unique name M_PWDA_Switches_SimpleSwitch__ctor_3 generated for M:PWDA.Switches.SimpleSwitch.#ctor(System.String,PWDA.Switches.State)
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\TransformManifest.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.57
+    Last step completed in 00:00:00,6815
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0075
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.1.12.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\ru\*.xml
+Indexing D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\Switches.xml
+Indexed 156314 members in 122 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:01,7818
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\Welcome.aml&#39;
+    D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\Welcome.aml -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\ddueXml\4105aa78-a7e5-49b2-b5e4-cc596527d306.xml
+    Parsing topic file &#39;D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\VersionHistory\VersionHistory.aml&#39;
+    D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\ddueXml\baacd2f3-3096-40e5-b336-5c7ec74933e0.xml
+    Parsing topic file &#39;D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\ddueXml\d1aed33c-a75e-4566-80e5-1aa2d4a2a002.xml
+    Last step completed in 00:00:00,0480
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00,0150
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\icons\Help.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\Help.png
+D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\icons\Help.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0095
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0005
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 13.10.2016 16:07:20.
+Џа&#174;ҐЄв &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+GenerateIntermediateTOC:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.10
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2006
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00,3042
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\sandcastle.config
+    Added configuration for &#39;IntelliSense Component&#39; after &#39;Show Missing Documentation Component&#39; (instance 1)
+D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\conceptual.config
+    Skipping component &#39;IntelliSense Component&#39;, not used in conceptual build
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,1371
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 13.10.2016 16:07:21.
+Џа&#174;ҐЄв &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildConceptualTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+BuildConceptualTopics:
+  BuildAssembler (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 3 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildConceptualTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:03.84
+    Last step completed in 00:00:04,0607
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 13.10.2016 16:07:25.
+Џа&#174;ҐЄв &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+BuildReferenceTopics:
+  BuildAssembler (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:PWDA.Switches.Convertor.ToBoolean(PWDA.Switches.State)] Unknown reference link target &#39;T:Boolean&#39;. [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:PWDA.Switches.Convertor.ToBoolean(PWDA.Switches.State)] Unknown reference link target &#39;T:Boolean&#39;. [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:PWDA.Switches.Relay.GetContact(PWDA.Switches.State)] Missing &lt;returns&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:PWDA.Switches.Relay.GetContacts(PWDA.Switches.State)] Missing &lt;param name=&quot;state&quot;/&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.Relay.AfterGetContactEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.Relay.BeforeGetContactEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.SimpleSwitch.AfterGetStateEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.SimpleSwitch.AfterSetStateEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.SimpleSwitch.BeforeGetStateEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:PWDA.Switches.SimpleSwitch.BeforeSetStateEventHandler] Missing &lt;summary&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:PWDA.Switches.State.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj]
+  Processed 113 topic(s)
+  11 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\BuildReferenceTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:13.69
+    Last step completed in 00:00:13,8147
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:00,0130
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.1.12.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1049&#39;, code page &#39;1251&#39;, encoding charset &#39;Windows-1251&#39;.
+
+Processing Help 1 files in D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1
+Processed 116 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\Documentation.hhc
+
+Processing website files in D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\Output\Website
+Processed 116 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\WebKI.xml
+Saving website table of contents to D:\PWDA\ђ&#160;&#167;а&#160;Ў&#174;вЄ&#160; ЏЋ\Switches\SwitchesDocumentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:01,1222
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:01,2834
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0005
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0005
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0035
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 11 seconds
+  
+  118	Topics
+  
+  1,382	Local links
+  
+  276	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 179,271 bytes
+  
+  Compression decreased file by 1,052,928 bytes.
+  
+<plugIn name="Output Deployment" behavior="After" priority="200">
+Deploying HTML Help 1 file
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Documentation.chm to D:\Seafile\Готовое ПО СПА\Switches\Documentation.chm
+</plugIn>    Last step completed in 00:00:14,7608
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0005
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:03,6067
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 275 files for the website content
+<plugIn name="Output Deployment" behavior="After" priority="200">
+Deploying website files
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\index.html to \\pwda-server\Software-WebDoc\Switches\index.html
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\search.html to \\pwda-server\Software-WebDoc\Switches\search.html
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\SearchHelp.aspx to \\pwda-server\Software-WebDoc\Switches\SearchHelp.aspx
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\SearchHelp.inc.php to \\pwda-server\Software-WebDoc\Switches\SearchHelp.inc.php
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\SearchHelp.php to \\pwda-server\Software-WebDoc\Switches\SearchHelp.php
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\Web.Config to \\pwda-server\Software-WebDoc\Switches\Web.Config
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\WebKI.xml to \\pwda-server\Software-WebDoc\Switches\WebKI.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\WebTOC.xml to \\pwda-server\Software-WebDoc\Switches\WebTOC.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_100.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_100.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_101.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_101.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_102.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_102.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_103.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_103.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_105.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_105.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_107.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_107.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1072.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1072.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1073.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1073.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1074.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1074.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1075.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1075.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1076.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1076.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1079.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1079.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_108.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_108.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1080.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1080.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1082.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1082.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1083.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1083.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1084.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1084.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1085.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1085.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1086.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1086.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1087.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1087.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1088.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1088.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1089.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1089.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_109.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_109.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1090.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1090.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1091.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1091.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1092.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1092.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1093.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1093.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1094.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1094.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1095.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1095.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_110.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_110.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_1101.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_1101.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_111.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_111.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_112.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_112.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_114.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_114.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_115.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_115.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_116.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_116.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_117.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_117.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_118.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_118.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_119.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_119.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_120.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_120.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_121.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_121.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_97.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_97.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_98.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_98.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_99.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_99.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\fti\FTI_Files.json to \\pwda-server\Software-WebDoc\Switches\fti\FTI_Files.json
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\4105aa78-a7e5-49b2-b5e4-cc596527d306.htm to \\pwda-server\Software-WebDoc\Switches\html\4105aa78-a7e5-49b2-b5e4-cc596527d306.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\baacd2f3-3096-40e5-b336-5c7ec74933e0.htm to \\pwda-server\Software-WebDoc\Switches\html\baacd2f3-3096-40e5-b336-5c7ec74933e0.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\d1aed33c-a75e-4566-80e5-1aa2d4a2a002.htm to \\pwda-server\Software-WebDoc\Switches\html\d1aed33c-a75e-4566-80e5-1aa2d4a2a002.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Events_T_PWDA_Switches_Coil.htm to \\pwda-server\Software-WebDoc\Switches\html\Events_T_PWDA_Switches_Coil.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Events_T_PWDA_Switches_Contact.htm to \\pwda-server\Software-WebDoc\Switches\html\Events_T_PWDA_Switches_Contact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Events_T_PWDA_Switches_NetworkRelay.htm to \\pwda-server\Software-WebDoc\Switches\html\Events_T_PWDA_Switches_NetworkRelay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Events_T_PWDA_Switches_Relay.htm to \\pwda-server\Software-WebDoc\Switches\html\Events_T_PWDA_Switches_Relay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Events_T_PWDA_Switches_SimpleSwitch.htm to \\pwda-server\Software-WebDoc\Switches\html\Events_T_PWDA_Switches_SimpleSwitch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_Relay_AfterGetContact.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_Relay_AfterGetContact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_Relay_BeforeGetContact.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_Relay_BeforeGetContact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_SimpleSwitch_AfterGetState.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_SimpleSwitch_AfterGetState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_SimpleSwitch_AfterSetState.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_SimpleSwitch_AfterSetState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_SimpleSwitch_BeforeGetState.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_SimpleSwitch_BeforeGetState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\E_PWDA_Switches_SimpleSwitch_BeforeSetState.htm to \\pwda-server\Software-WebDoc\Switches\html\E_PWDA_Switches_SimpleSwitch_BeforeSetState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Fields_T_PWDA_Switches_State.htm to \\pwda-server\Software-WebDoc\Switches\html\Fields_T_PWDA_Switches_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\F_PWDA_Switches_State_I.htm to \\pwda-server\Software-WebDoc\Switches\html\F_PWDA_Switches_State_I.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\F_PWDA_Switches_State_O.htm to \\pwda-server\Software-WebDoc\Switches\html\F_PWDA_Switches_State_O.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_Coil.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_Coil.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_Contact.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_Contact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_Convertor.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_Convertor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_ISwitchable.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_ISwitchable.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_NetworkRelay.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_NetworkRelay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_Relay.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_Relay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_SimpleSwitch.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_SimpleSwitch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Methods_T_PWDA_Switches_State.htm to \\pwda-server\Software-WebDoc\Switches\html\Methods_T_PWDA_Switches_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Coil__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Coil__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Coil__ctor_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Coil__ctor_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Coil__ctor_2.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Coil__ctor_2.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Coil__ctor_3.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Coil__ctor_3.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Contact__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Contact__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Contact__ctor_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Contact__ctor_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Contact__ctor_2.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Contact__ctor_2.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Contact__ctor_3.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Contact__ctor_3.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Convertor_ToBoolean.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Convertor_ToBoolean.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Convertor_ToState.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Convertor_ToState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Convertor_ToState_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Convertor_ToState_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_ISwitchable_Switch.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_ISwitchable_Switch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_ISwitchable_SwitchOFF.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_ISwitchable_SwitchOFF.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_ISwitchable_SwitchON.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_ISwitchable_SwitchON.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_ISwitchable_SwitchTo.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_ISwitchable_SwitchTo.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay_Download.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay_Download.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay_Download_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay_Download_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay_Upload.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay_Upload.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay_Upload_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay_Upload_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay__ctor_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay__ctor_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay__ctor_2.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay__ctor_2.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_NetworkRelay__ctor_3.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_NetworkRelay__ctor_3.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay_GetContact.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay_GetContact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay_GetContacts.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay_GetContacts.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay_GetContacts_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay_GetContacts_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay_GetContact_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay_GetContact_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor_2.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor_2.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor_3.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor_3.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor_4.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor_4.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_Relay__ctor_5.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_Relay__ctor_5.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch_Switch.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch_Switch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch_SwitchOFF.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch_SwitchOFF.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch_SwitchON.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch_SwitchON.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch_SwitchTo.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch_SwitchTo.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch__ctor_1.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch__ctor_1.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch__ctor_2.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch__ctor_2.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_SimpleSwitch__ctor_3.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_SimpleSwitch__ctor_3.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_Equals.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_Equals.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_BitwiseAnd.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_BitwiseAnd.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_BitwiseOr.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_BitwiseOr.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_Equality.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_Equality.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_ExclusiveOr.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_ExclusiveOr.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_Inequality.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_Inequality.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_op_OnesComplement.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_op_OnesComplement.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\M_PWDA_Switches_State_ToString.htm to \\pwda-server\Software-WebDoc\Switches\html\M_PWDA_Switches_State_ToString.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\N_PWDA_Switches.htm to \\pwda-server\Software-WebDoc\Switches\html\N_PWDA_Switches.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Operators_T_PWDA_Switches_State.htm to \\pwda-server\Software-WebDoc\Switches\html\Operators_T_PWDA_Switches_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Coil__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Coil__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Contact__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Contact__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Convertor_ToState.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Convertor_ToState.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_NetworkRelay_Download.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_NetworkRelay_Download.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_NetworkRelay_Upload.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_NetworkRelay_Upload.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_NetworkRelay__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_NetworkRelay__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Relay_GetContact.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Relay_GetContact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Relay_GetContacts.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Relay_GetContacts.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_Relay__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_Relay__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Overload_PWDA_Switches_SimpleSwitch__ctor.htm to \\pwda-server\Software-WebDoc\Switches\html\Overload_PWDA_Switches_SimpleSwitch__ctor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_Coil.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_Coil.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_Contact.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_Contact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_ISwitchable.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_ISwitchable.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_NetworkRelay.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_NetworkRelay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_Relay.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_Relay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\Properties_T_PWDA_Switches_SimpleSwitch.htm to \\pwda-server\Software-WebDoc\Switches\html\Properties_T_PWDA_Switches_SimpleSwitch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_ISwitchable_IsOFF.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_ISwitchable_IsOFF.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_ISwitchable_IsON.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_ISwitchable_IsON.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_ISwitchable_State.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_ISwitchable_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_NetworkRelay_AutoSync.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_NetworkRelay_AutoSync.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_NetworkRelay_ConnectionString.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_NetworkRelay_ConnectionString.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_Relay_Contacts.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_Relay_Contacts.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_SimpleSwitch_IsOFF.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_SimpleSwitch_IsOFF.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_SimpleSwitch_IsON.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_SimpleSwitch_IsON.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_SimpleSwitch_Label.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_SimpleSwitch_Label.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\P_PWDA_Switches_SimpleSwitch_State.htm to \\pwda-server\Software-WebDoc\Switches\html\P_PWDA_Switches_SimpleSwitch_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Coil.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Coil.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Contact.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Contact.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Convertor.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Convertor.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_ISwitchable.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_ISwitchable.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_NetworkRelay.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_NetworkRelay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Relay.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Relay.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Relay_AfterGetContactEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Relay_AfterGetContactEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_Relay_BeforeGetContactEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_Relay_BeforeGetContactEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_SimpleSwitch.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_SimpleSwitch.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_SimpleSwitch_AfterGetStateEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_SimpleSwitch_AfterGetStateEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_SimpleSwitch_AfterSetStateEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_SimpleSwitch_AfterSetStateEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_SimpleSwitch_BeforeGetStateEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_SimpleSwitch_BeforeGetStateEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_SimpleSwitch_BeforeSetStateEventHandler.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_SimpleSwitch_BeforeSetStateEventHandler.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\html\T_PWDA_Switches_State.htm to \\pwda-server\Software-WebDoc\Switches\html\T_PWDA_Switches_State.htm
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\AlertCaution.png to \\pwda-server\Software-WebDoc\Switches\icons\AlertCaution.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\AlertNote.png to \\pwda-server\Software-WebDoc\Switches\icons\AlertNote.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\AlertSecurity.png to \\pwda-server\Software-WebDoc\Switches\icons\AlertSecurity.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\CFW.gif to \\pwda-server\Software-WebDoc\Switches\icons\CFW.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\CodeExample.png to \\pwda-server\Software-WebDoc\Switches\icons\CodeExample.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\favicon.ico to \\pwda-server\Software-WebDoc\Switches\icons\favicon.ico
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\Help.png to \\pwda-server\Software-WebDoc\Switches\icons\Help.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privclass.gif to \\pwda-server\Software-WebDoc\Switches\icons\privclass.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privdelegate.gif to \\pwda-server\Software-WebDoc\Switches\icons\privdelegate.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privenumeration.gif to \\pwda-server\Software-WebDoc\Switches\icons\privenumeration.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privevent.gif to \\pwda-server\Software-WebDoc\Switches\icons\privevent.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privextension.gif to \\pwda-server\Software-WebDoc\Switches\icons\privextension.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privfield.gif to \\pwda-server\Software-WebDoc\Switches\icons\privfield.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privinterface.gif to \\pwda-server\Software-WebDoc\Switches\icons\privinterface.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privmethod.gif to \\pwda-server\Software-WebDoc\Switches\icons\privmethod.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privproperty.gif to \\pwda-server\Software-WebDoc\Switches\icons\privproperty.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\privstructure.gif to \\pwda-server\Software-WebDoc\Switches\icons\privstructure.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protclass.gif to \\pwda-server\Software-WebDoc\Switches\icons\protclass.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protdelegate.gif to \\pwda-server\Software-WebDoc\Switches\icons\protdelegate.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protenumeration.gif to \\pwda-server\Software-WebDoc\Switches\icons\protenumeration.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protevent.gif to \\pwda-server\Software-WebDoc\Switches\icons\protevent.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protextension.gif to \\pwda-server\Software-WebDoc\Switches\icons\protextension.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protfield.gif to \\pwda-server\Software-WebDoc\Switches\icons\protfield.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protinterface.gif to \\pwda-server\Software-WebDoc\Switches\icons\protinterface.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protmethod.gif to \\pwda-server\Software-WebDoc\Switches\icons\protmethod.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protoperator.gif to \\pwda-server\Software-WebDoc\Switches\icons\protoperator.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protproperty.gif to \\pwda-server\Software-WebDoc\Switches\icons\protproperty.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\protstructure.gif to \\pwda-server\Software-WebDoc\Switches\icons\protstructure.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubclass.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubclass.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubdelegate.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubdelegate.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubenumeration.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubenumeration.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubevent.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubevent.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubextension.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubextension.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubfield.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubfield.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubinterface.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubinterface.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubmethod.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubmethod.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\puboperator.gif to \\pwda-server\Software-WebDoc\Switches\icons\puboperator.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubproperty.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubproperty.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\pubstructure.gif to \\pwda-server\Software-WebDoc\Switches\icons\pubstructure.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\Search.png to \\pwda-server\Software-WebDoc\Switches\icons\Search.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\SectionCollapsed.png to \\pwda-server\Software-WebDoc\Switches\icons\SectionCollapsed.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\SectionExpanded.png to \\pwda-server\Software-WebDoc\Switches\icons\SectionExpanded.png
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\slMobile.gif to \\pwda-server\Software-WebDoc\Switches\icons\slMobile.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\static.gif to \\pwda-server\Software-WebDoc\Switches\icons\static.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\TocClose.gif to \\pwda-server\Software-WebDoc\Switches\icons\TocClose.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\TocCollapsed.gif to \\pwda-server\Software-WebDoc\Switches\icons\TocCollapsed.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\TocExpanded.gif to \\pwda-server\Software-WebDoc\Switches\icons\TocExpanded.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\TocOpen.gif to \\pwda-server\Software-WebDoc\Switches\icons\TocOpen.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\icons\xna.gif to \\pwda-server\Software-WebDoc\Switches\icons\xna.gif
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\scripts\branding-Website.js to \\pwda-server\Software-WebDoc\Switches\scripts\branding-Website.js
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\scripts\branding.js to \\pwda-server\Software-WebDoc\Switches\scripts\branding.js
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\scripts\highlight.js to \\pwda-server\Software-WebDoc\Switches\scripts\highlight.js
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\scripts\jquery-1.11.0.min.js to \\pwda-server\Software-WebDoc\Switches\scripts\jquery-1.11.0.min.js
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-cs-CZ.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-cs-CZ.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-de-DE.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-de-DE.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-en-US.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-en-US.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-es-ES.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-es-ES.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-fr-FR.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-fr-FR.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-Help1.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-Help1.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-Help2.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-Help2.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-HelpViewer.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-HelpViewer.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-it-IT.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-it-IT.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-ja-JP.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-ja-JP.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-ko-KR.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-ko-KR.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-pl-PL.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-pl-PL.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-pt-BR.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-pt-BR.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-ru-RU.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-ru-RU.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-tr-TR.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-tr-TR.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-Website.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-Website.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-zh-CN.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-zh-CN.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding-zh-TW.css to \\pwda-server\Software-WebDoc\Switches\styles\branding-zh-TW.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\branding.css to \\pwda-server\Software-WebDoc\Switches\styles\branding.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\styles\highlight.css to \\pwda-server\Software-WebDoc\Switches\styles\highlight.css
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\baacd2f3-3096-40e5-b336-5c7ec74933e0.xml to \\pwda-server\Software-WebDoc\Switches\toc\baacd2f3-3096-40e5-b336-5c7ec74933e0.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Events_T_PWDA_Switches_Relay.xml to \\pwda-server\Software-WebDoc\Switches\toc\Events_T_PWDA_Switches_Relay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Events_T_PWDA_Switches_SimpleSwitch.xml to \\pwda-server\Software-WebDoc\Switches\toc\Events_T_PWDA_Switches_SimpleSwitch.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Fields_T_PWDA_Switches_State.xml to \\pwda-server\Software-WebDoc\Switches\toc\Fields_T_PWDA_Switches_State.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_Convertor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_Convertor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_ISwitchable.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_ISwitchable.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_NetworkRelay.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_NetworkRelay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_Relay.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_Relay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_SimpleSwitch.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_SimpleSwitch.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Methods_T_PWDA_Switches_State.xml to \\pwda-server\Software-WebDoc\Switches\toc\Methods_T_PWDA_Switches_State.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\N_PWDA_Switches.xml to \\pwda-server\Software-WebDoc\Switches\toc\N_PWDA_Switches.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Operators_T_PWDA_Switches_State.xml to \\pwda-server\Software-WebDoc\Switches\toc\Operators_T_PWDA_Switches_State.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Coil__ctor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Coil__ctor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Contact__ctor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Contact__ctor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Convertor_ToState.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Convertor_ToState.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_NetworkRelay_Download.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_NetworkRelay_Download.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_NetworkRelay_Upload.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_NetworkRelay_Upload.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_NetworkRelay__ctor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_NetworkRelay__ctor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Relay_GetContact.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Relay_GetContact.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Relay_GetContacts.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Relay_GetContacts.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_Relay__ctor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_Relay__ctor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Overload_PWDA_Switches_SimpleSwitch__ctor.xml to \\pwda-server\Software-WebDoc\Switches\toc\Overload_PWDA_Switches_SimpleSwitch__ctor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Properties_T_PWDA_Switches_ISwitchable.xml to \\pwda-server\Software-WebDoc\Switches\toc\Properties_T_PWDA_Switches_ISwitchable.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Properties_T_PWDA_Switches_NetworkRelay.xml to \\pwda-server\Software-WebDoc\Switches\toc\Properties_T_PWDA_Switches_NetworkRelay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Properties_T_PWDA_Switches_Relay.xml to \\pwda-server\Software-WebDoc\Switches\toc\Properties_T_PWDA_Switches_Relay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\Properties_T_PWDA_Switches_SimpleSwitch.xml to \\pwda-server\Software-WebDoc\Switches\toc\Properties_T_PWDA_Switches_SimpleSwitch.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\roottoc.xml to \\pwda-server\Software-WebDoc\Switches\toc\roottoc.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_Coil.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_Coil.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_Contact.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_Contact.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_Convertor.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_Convertor.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_ISwitchable.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_ISwitchable.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_NetworkRelay.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_NetworkRelay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_Relay.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_Relay.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_SimpleSwitch.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_SimpleSwitch.xml
+    Deploying D:\PWDA\Разработка ПО\Switches\SwitchesDocumentation\Help\toc\T_PWDA_Switches_State.xml to \\pwda-server\Software-WebDoc\Switches\toc\T_PWDA_Switches_State.xml
+</plugIn>    Last step completed in 00:00:09,7745
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,6591
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 13.10.2016 16:08:10.  Total time: 00:00:53,5839
+
+</buildStep>
+</shfbBuild>

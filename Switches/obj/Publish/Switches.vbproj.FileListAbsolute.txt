@@ -1,0 +1,18 @@
+H:\Users\Seafile\Программное обеспечение\Switches\1.1.0\Switches.dll.config
+H:\Users\Seafile\Программное обеспечение\Switches\1.1.0\Switches.dll
+H:\Users\Seafile\Программное обеспечение\Switches\1.1.0\Switches.pdb
+H:\Users\Seafile\Программное обеспечение\Switches\1.1.0\Switches.xml
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Publish\PWDA.Switches.Resources.resources
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Publish\Switches.vbproj.GenerateResource.Cache
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Publish\Switches.dll
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Publish\Switches.xml
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Publish\Switches.pdb
+D:\Seafile\Готовое ПО СПА\Switches\Switches.dll.config
+D:\Seafile\Готовое ПО СПА\Switches\Switches.dll
+D:\Seafile\Готовое ПО СПА\Switches\Switches.pdb
+D:\Seafile\Готовое ПО СПА\Switches\Switches.xml
+D:\PWDA\Разработка ПО\Switches\Switches\obj\Publish\PWDA.Switches.Resources.resources
+D:\PWDA\Разработка ПО\Switches\Switches\obj\Publish\Switches.vbproj.GenerateResource.Cache
+D:\PWDA\Разработка ПО\Switches\Switches\obj\Publish\Switches.dll
+D:\PWDA\Разработка ПО\Switches\Switches\obj\Publish\Switches.xml
+D:\PWDA\Разработка ПО\Switches\Switches\obj\Publish\Switches.pdb

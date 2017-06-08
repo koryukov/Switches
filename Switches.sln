@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Switches", "Switches\Switches.vbproj", "{9370DE4B-80A0-4499-BA75-6A758EF77F83}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SwitchesUnitTests", "SwitchesUnitTests\SwitchesUnitTests.vbproj", "{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SwitchesDocumentation", "SwitchesDocumentation\SwitchesDocumentation.shfbproj", "{2FC771DC-2068-464C-A1E9-C9F24BD253D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83} = {9370DE4B-80A0-4499-BA75-6A758EF77F83}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Publish|Any CPU = Publish|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Publish|Any CPU.ActiveCfg = Publish|Any CPU
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Publish|Any CPU.Build.0 = Publish|Any CPU
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9370DE4B-80A0-4499-BA75-6A758EF77F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Publish|Any CPU.ActiveCfg = Publish|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Publish|Any CPU.Build.0 = Publish|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Publish|Any CPU.Deploy.0 = Publish|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF1374B-B1BA-4253-8FE5-98AA1F67A426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC771DC-2068-464C-A1E9-C9F24BD253D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC771DC-2068-464C-A1E9-C9F24BD253D5}.Publish|Any CPU.ActiveCfg = Publish|Any CPU
+		{2FC771DC-2068-464C-A1E9-C9F24BD253D5}.Publish|Any CPU.Build.0 = Publish|Any CPU
+		{2FC771DC-2068-464C-A1E9-C9F24BD253D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC771DC-2068-464C-A1E9-C9F24BD253D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

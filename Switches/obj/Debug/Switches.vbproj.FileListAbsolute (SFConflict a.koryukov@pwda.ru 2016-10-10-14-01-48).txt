@@ -1,0 +1,11 @@
+H:\Users\pwda\Документы\Потеря зубьев ковша\Программное обеспечение\Dentist\Switches\obj\Debug\PWDA.Switches.Resources.resources
+H:\Users\pwda\Документы\Потеря зубьев ковша\Программное обеспечение\Dentist\Switches\obj\Debug\Switches.vbproj.GenerateResource.Cache
+H:\Users\pwda\Разработка ПО\Switches\Switches\bin\Debug\Switches.dll.config
+H:\Users\pwda\Разработка ПО\Switches\Switches\bin\Debug\Switches.dll
+H:\Users\pwda\Разработка ПО\Switches\Switches\bin\Debug\Switches.pdb
+H:\Users\pwda\Разработка ПО\Switches\Switches\bin\Debug\Switches.xml
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Debug\PWDA.Switches.Resources.resources
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Debug\Switches.vbproj.GenerateResource.Cache
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Debug\Switches.dll
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Debug\Switches.xml
+H:\Users\pwda\Разработка ПО\Switches\Switches\obj\Debug\Switches.pdb

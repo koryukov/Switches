@@ -1,0 +1,695 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Switches
+</name>
+</assembly>
+<members>
+<member name="P:PWDA.Switches.ISwitchable.State">
+	<summary>
+ Текущее состояние переключаемого устройства
+ </summary>
+	<value><see cref="T:PWDA.Switches.State"/></value>
+</member><member name="P:PWDA.Switches.ISwitchable.IsON">
+	<summary>
+ Возвращает <c>True</c>, если устройство включено, в противном случае - <c>False</c>
+	</summary>
+	<remarks>Свойство доступно только для чтения.</remarks>
+	<value>Boolean</value>
+</member><member name="P:PWDA.Switches.ISwitchable.IsOFF">
+	<summary>
+ Возвращает True, если устройство выключено, в противном случае - False
+ </summary>
+	<remarks>Свойство доступно только для чтения.</remarks>
+	<value>Boolean</value>
+</member><member name="M:PWDA.Switches.ISwitchable.Switch">
+	<summary>
+ Переключает устройство из одного состояния в другое.
+ </summary>
+</member><member name="M:PWDA.Switches.ISwitchable.SwitchTo(PWDA.Switches.State)">
+	<summary>
+ Переключает изделие в состояние, заданное передаваемым аргументом state.
+ </summary>
+	<param name="state">Новое состояние коммутационного аппарата <see cref="T:PWDA.Switches.State"/>.</param>
+</member><member name="M:PWDA.Switches.ISwitchable.SwitchON">
+	<summary>
+ Переводит устройство в состояние ВКЛЮЧЕНО
+ </summary>
+</member><member name="M:PWDA.Switches.ISwitchable.SwitchOFF">
+	<summary>
+ Переводит устройство в состояние ВЫКЛЮЧЕНО
+ </summary>
+</member><member name="T:PWDA.Switches.ISwitchable">
+	<summary>
+ Определяет набор свойств и процедур, реализуемых коммутационным аппаратом, который может находиться в двух состояниях.
+ </summary>
+</member><member name="E:PWDA.Switches.SimpleSwitch.BeforeSetState">
+	<summary>
+ Событие, возникающее перед установкой состояния устройства.
+ </summary>
+	<param name="oldState">Текущее состояние коммутационного аппарата.</param>
+	<param name="newState">Новое состояние коммутационного аппарата. Доступно для редактирования.</param>
+	<remarks>
+ Доступно в наследумых классах.
+ Передаёт обработчику старое и новое состояние устройства с возможностью изменить новое состояние в обработчике.
+ </remarks>
+</member><member name="E:PWDA.Switches.SimpleSwitch.AfterSetState">
+	<summary>
+ Событие, возникающее после установки состояния устройства.
+ </summary>
+	<param name="oldState">Текущее состояние коммутационного аппарата.</param>
+	<param name="newState">Новое состояние коммутационного аппарата. Доступно для редактирования.</param>
+	<remarks>
+ Доступно в наследумых классах.
+ Передаёт обработчику старое и новое состояние устройства с возможностью изменить новое состояние в обработчике.
+ </remarks>
+</member><member name="E:PWDA.Switches.SimpleSwitch.BeforeGetState">
+	<summary>
+ Событие, возникающее перед получением текущего состояния устройства.
+ </summary>
+	<remarks>Доступно в наследумых классах. Не имеет аргументов.</remarks>
+</member><member name="E:PWDA.Switches.SimpleSwitch.AfterGetState">
+	<summary>
+ Событие, возникающее после получения текущего состояния устройства.
+ </summary>
+	<remarks>Доступно в наследумых классах. Не имеет аргументов.</remarks>
+</member><member name="F:PWDA.Switches.SimpleSwitch._label">
+	<summary>
+ Подпись переключаемого устройства.
+ </summary>
+	<remarks>Доступно только членам текущего экземпляра класса.</remarks>
+ Локальные переменные
+
+</member><member name="F:PWDA.Switches.SimpleSwitch._state">
+	<summary>
+ Текущее состояние переключаемого устройства
+ </summary>
+	<remarks>Доступно только членам текущего экземпляра класса.</remarks>
+</member><member name="M:PWDA.Switches.SimpleSwitch.#ctor">
+	<summary>
+ Конструктор класса по умолчанию. Создаёт коммутационный аппарат в выключенном состоянии.
+ </summary>
+</member><member name="M:PWDA.Switches.SimpleSwitch.#ctor(PWDA.Switches.State)">
+	<summary>
+ Создаёт простое переключаемое устройство с заданным начальным состоянием.
+ </summary>
+	<param name="state">Заданное начальное состояние переключаемого устройства.</param>
+</member><member name="M:PWDA.Switches.SimpleSwitch.#ctor(System.String)">
+	<summary>
+ Создаёт простое переключаемое устройство в выключенном состоянии с подписью.
+ </summary>
+	<param name="label">Подпись устройства.</param>
+</member><member name="M:PWDA.Switches.SimpleSwitch.#ctor(System.String,PWDA.Switches.State)">
+	<summary>
+ Создаёт простое переключаемое устройство с подписью и заданным начальным состоянием.
+ </summary>
+	<param name="label">Подпись устройства.</param>
+	<param name="state">Заданное начальное состояние переключаемого устройства.</param>
+</member><member name="P:PWDA.Switches.SimpleSwitch.Label">
+	<summary>
+ Подпись переключаемого устройства
+ </summary>
+	<value>String</value>
+</member><member name="P:PWDA.Switches.SimpleSwitch.State">
+	<summary>
+ Текущее состояние переключаемого устройства.
+ </summary>
+	<value><see cref="T:PWDA.Switches.State"/></value>
+</member><member name="M:PWDA.Switches.SimpleSwitch.Switch">
+	<summary>
+ Переключает коммутационный аппарат из одного состояния в другое.
+ </summary>
+</member><member name="M:PWDA.Switches.SimpleSwitch.SwitchTo(PWDA.Switches.State)">
+	<summary>
+ Переключает коммутационный аппрат в заданное состояние.
+ </summary>
+	<param name="state">Состояние, в которое будет перведён коммутационный аппарат.</param>
+</member><member name="M:PWDA.Switches.SimpleSwitch.SwitchON">
+	<summary>
+ Включает коммутационный аппарат.
+ </summary>
+</member><member name="M:PWDA.Switches.SimpleSwitch.SwitchOFF">
+	<summary>
+ Выключает коммутационный аппарат.
+ </summary>
+</member><member name="P:PWDA.Switches.SimpleSwitch.IsON">
+	<summary>
+ Возвращает <c>True</c>, если устройство включенов противном случае - <c>False</c>.
+ </summary>
+	<remarks>Свойство доступно только для чтения.</remarks>
+	<value>Boolean</value>
+</member><member name="P:PWDA.Switches.SimpleSwitch.IsOFF">
+	<summary>
+ Возвращает <c>True</c>, если устройство выключено, в противном случае - <c>False</c>.
+ </summary>
+	<remarks>Свойство доступно только для чтения.</remarks>
+	<value>Boolean</value>
+</member><member name="T:PWDA.Switches.SimpleSwitch">
+	<summary>
+ Абстрактный класс простого коммутационого аппарата, который может находиться в двух состояниях.
+ </summary>
+	<remarks>
+ Класс предназначен для создания коммутационных аппаратов. Создание экземпляров этого класса невозможно.
+ </remarks>
+</member><member name="M:PWDA.Switches.Coil.#ctor">
+	<summary>
+ Конструктор класса по умолчанию. Создаёт воспринимающую часть коммутационного аппарата в выключенном состоянии.
+ </summary>
+</member><member name="M:PWDA.Switches.Coil.#ctor(PWDA.Switches.State)">
+	<summary>
+ Создаёт воспринимающую часть коммутационного аппарата с заданным начальным состоянием.
+ </summary>
+	<param name="state">Задаёт начальное сосотояние катушки (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+</member><member name="M:PWDA.Switches.Coil.#ctor(System.String)">
+	<summary>
+ Создаёт воспринимающую часть коммутационного аппарата с подписью в выключенном состоянии.
+ </summary>
+	<param name="label">Подпись к катушке (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+</member><member name="M:PWDA.Switches.Coil.#ctor(System.String,PWDA.Switches.State)">
+	<summary>
+ Создаёт воспринимающую часть коммутационного аппарата с заданным начальным состоянием и подписью
+ </summary>
+	<param name="label">Подпись к катушке (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="state">Задаёт начальное сосотояние катушки (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+</member><member name="T:PWDA.Switches.Coil">
+	<summary>
+ Воспринимающая часть коммутационного аппарата
+ </summary>
+</member><member name="M:PWDA.Switches.Contact.#ctor">
+	<summary>
+ Конструктор класса по умолчанию. Создаёт нормально разомкнутый контакт.
+ </summary>
+</member><member name="M:PWDA.Switches.Contact.#ctor(PWDA.Switches.State)">
+	<summary>
+ Создаёт контакт с заданным начальным состоянием.
+ </summary>
+	<param name="state">Начальное состояние контакта (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+</member><member name="M:PWDA.Switches.Contact.#ctor(System.String)">
+	<summary>
+ Создаёт нормально разомкрутый контакт с заданной подписью.
+ </summary>
+	<param name="label">Подпись к контакту (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+</member><member name="M:PWDA.Switches.Contact.#ctor(System.String,PWDA.Switches.State)">
+	<summary>
+ Создаёт контакт с заданным начальным состоянием и подписью.
+ </summary>
+	<param name="label">Подпись к контакту (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="state">Начальное состояние контакта (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+</member><member name="T:PWDA.Switches.Contact">
+	<summary>
+ Простой однополюсный электрический контакт
+ </summary>
+</member><member name="P:PWDA.Switches.My.Resources.Resources.ResourceManager">
+	<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member><member name="P:PWDA.Switches.My.Resources.Resources.Culture">
+	<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member><member name="T:PWDA.Switches.My.Resources.Resources">
+	<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member><member name="M:PWDA.Switches.Convertor.ToBoolean(PWDA.Switches.State)">
+	<summary>
+ Приводит состояние коммутационного аппарата к типу Boolean.
+ </summary>
+	<param name="state">Состояние коммутационного аппарата <see cref="T:PWDA.Switches.State"/>.</param>
+	<returns>Значение <see cref="T:Boolean"/>.
+ <example>
+			<code language="vb">
+ Dim OnState as State = State.I
+ Dim OffState as State = State.O
+ Dim ans as Boolean
+ ans = OnState.ToBoolean     ' True
+ ans = OffState.ToBoolean    ' False
+ </code>
+		</example>
+	</returns>
+</member><member name="M:PWDA.Switches.Convertor.ToState(System.Boolean)">
+	<summary>
+ Конвертирует значение типа Boolean в состояние коммутационного аппарата.
+ </summary>
+	<param name="bool">Приводимое знечение.</param>
+	<returns><see cref="T:PWDA.Switches.State"/>
+		<example>
+			<code language="vb">
+ Dim OnState as State = True.ToState
+ Dim OffState as State = False.ToState
+ Dim ans as String
+ ans = OnState.ToString     ' "on"
+ ans = OffState.ToString    ' "off"
+ </code>
+		</example>
+	</returns>
+</member><member name="M:PWDA.Switches.Convertor.ToState(System.String)">
+	<summary>
+ Конвертирует строку в состояние коммутационного аппарата.
+ </summary>
+	<param name="str">Строка, конвертируемая в тип <see cref="T:PWDA.Switches.State"/></param>
+	<remarks>При неизвестной строке возвращает Nothing.</remarks>
+	<returns>
+		<list type="bullet">
+			<item>
+				<term><see cref="F:PWDA.Switches.State.I"/></term>
+				<description> from <c>"on"</c>, <c>"true"</c>, <c>"1"</c>, <c>"I"</c>;</description>
+			</item>
+			<item>
+				<term><see cref="F:PWDA.Switches.State.O"/></term>
+				<description> from <c>"off"</c>, <c>"false"</c>, <c>"0"</c>, <c>"O"</c>.</description>
+			</item>
+		</list>
+		<example>
+			<code language="vb">
+ Dim OnState as State = "true".ToState
+ Dim OffState as State = "off".ToState
+ Dim ans as Boolean
+ ans = OnState.Equals(State.I)     ' true
+ ans = OffState.Equals(State.O)    ' false
+ </code>
+		</example>
+	</returns>
+</member><member name="T:PWDA.Switches.Convertor">
+	<summary>
+ Модуль содержит преобразования специфических типов сборки.
+ </summary>
+</member><member name="M:PWDA.Switches.State.#ctor(System.Boolean)">
+	<summary>
+ Конструктор класса
+ </summary>
+</member><member name="F:PWDA.Switches.State.I">
+ Members
+ <summary>
+ Коммутационный аппарат включён.
+ </summary>
+</member><member name="F:PWDA.Switches.State.O">
+	<summary>
+ Коммутационный аппарат выключен.
+ </summary>
+</member><member name="M:PWDA.Switches.State.op_OnesComplement(PWDA.Switches.State)">
+	<summary>
+ Реализует логическую операцию НЕ (инверсия).
+ </summary>
+	<param name="state">Состояние коммутационного аппарата.</param>
+	<returns>
+ Противоположное состояние <see cref="T:PWDA.Switches.State"/> коммутационного аппарата.
+ <example>В примере демонстрируется переключение контакта с помощью оператора <c>Not</c>.
+ <code language="vb">
+ Dim a As State = State.I
+ Dim b As State = Not (a)
+ Dim ans As String = b.ToString  ' Вернёт "off"
+ </code>
+		</example>
+	</returns>
+</member><member name="M:PWDA.Switches.State.op_BitwiseAnd(PWDA.Switches.State,PWDA.Switches.State)">
+	<summary>
+ Реализует логическую операцию И (последовательное включение контактов).
+ </summary>
+	<param name="a">Состояние первого контакта.</param>
+	<param name="b">Состояние второго контакта.</param>
+	<returns>
+ Состояние <see cref="T:PWDA.Switches.State"/> эквивалентного контакта.
+ <example>В примере демонстрируется последовательное включение контактов. Эквивалентный контакт будет замкнут только в том случае, если все контакты в цепи замкнуты.
+ <code language="vb">
+ Dim Closed1 As State = State.I
+ Dim Closed2 As State = State.I
+ Dim Opened1 As State = State.O
+ Dim Closed As State = Closed1 And Closed2
+ Dim Opened As State = Closed1 And Opened1 And Closed2
+ Dim ans As String
+ ans = Closed.ToString   ' Вернёт "on"
+ ans = Opened.ToString   ' Вернёт "off"
+ </code>
+		</example>
+	</returns>
+</member><member name="M:PWDA.Switches.State.op_BitwiseOr(PWDA.Switches.State,PWDA.Switches.State)">
+	<summary>
+ Реализует логическую операцию ИЛИ (параллельное включение контактов).
+ </summary>
+	<param name="a">Состояние первого контакта.</param>
+	<param name="b">Состояние второго контакта.</param>
+	<returns>
+ Состояние <see cref="T:PWDA.Switches.State"/> эквивалентного контакта.
+ <example>В примере демонстрируется параллельное включение контактов. Эквивалентный контакт будет разомкнут только в том случае, если все контакты в цепи разомкнуты.
+ <code language="vb">
+ Dim Closed1 As State = State.I
+ Dim Opened1 As State = State.O
+ Dim Opened2 As State = State.O
+ Dim Closed As State = Closed1 Or Opened1 Or Opened2
+ Dim Opened As State = Opened1 Or Opened2
+ Dim ans As String
+ ans = Closed.ToString   ' Вернёт "on"
+ ans = Opened.ToString   ' Вернёт "off"
+ </code>
+		</example>
+	</returns>
+</member><member name="M:PWDA.Switches.State.op_ExclusiveOr(PWDA.Switches.State,PWDA.Switches.State)">
+	<summary>
+ Реализует логическую операцию "Исключающее ИЛИ" для двух контактов.
+ </summary>
+	<param name="a">Состояние первого контакта.</param>
+	<param name="b">Состояние второго контакта.</param>
+	<returns>
+ Состояние <see cref="T:PWDA.Switches.State"/> эквивалентного контакта.
+ </returns>
+</member><member name="M:PWDA.Switches.State.op_Equality(PWDA.Switches.State,PWDA.Switches.State)">
+	<summary>
+ Сравнивает состояния коммутационных аппаратов.
+ </summary>
+	<param name="a">Состояние первого контакта.</param>
+	<param name="b">Состояние второго контакта.</param>
+	<returns>
+		<list type="bullet">
+			<item>
+				<term><c>True</c></term>
+				<description> в случае равенства.</description>
+			</item>
+			<item>
+				<term><c>False</c></term>
+				<description> в случае неравенства.</description>
+			</item>
+		</list>
+	</returns>
+</member><member name="M:PWDA.Switches.State.op_Inequality(PWDA.Switches.State,PWDA.Switches.State)">
+	<summary>
+ Оператор неравенства.
+ </summary>
+	<param name="a">Состояние первого контакта.</param>
+	<param name="b">Состояние второго контакта.</param>
+	<returns>
+		<list type="bullet">
+			<item>
+				<term><c>True</c></term>
+				<description> в случае неравенства.</description>
+			</item>
+			<item>
+				<term><c>False</c></term>
+				<description> в случае равенства.</description>
+			</item>
+		</list>
+	</returns>
+</member><member name="M:PWDA.Switches.State.Equals(System.Object)">
+	<summary>
+ Определяет равентство текущего экземпляра класса ст другим объектом.
+ </summary>
+	<returns>
+		<list type="bullet">
+			<item>
+				<term>True<c>True</c></term>
+				<description> в случае, если объекты равны.</description>
+			</item>
+			<item>
+				<term><c>False</c></term>
+				<description> в случае, если объекты неравны.</description>
+			</item>
+		</list>
+	</returns>
+</member><member name="M:PWDA.Switches.State.ToString">
+	<summary>
+ Конвертирует состояние коммутационного аппарата в строковое значение.
+ </summary>
+	<returns>
+		<list type="bullet">
+			<item>
+				<term><c>"on"</c></term>
+				<description>включено.</description>
+			</item>
+			<item>
+				<term><c>"off"</c></term>
+				<description>выключено/</description>
+			</item>
+		</list>
+	</returns>
+</member><member name="T:PWDA.Switches.State">
+	<summary>
+ Состояние коммутационного аппарата. Класс обеспечивает возможность объединения контактов с различными схемами включения.
+ </summary>
+</member><member name="F:PWDA.Switches.Relay._contacts">
+	<summary>
+ Исполнительная часть коммутационного аппарата (группа контактов).
+ </summary>
+	<remarks>Доступно только членам текущего экземпляря класса.</remarks>
+</member><member name="E:PWDA.Switches.Relay.BeforeGetContact">
+	<summary>
+ Событие, возникающее перед получением текущего состояния исполнительной части коммутационного аппарата. Предназначено для использования в производных классах.
+ </summary>
+ События
+
+</member><member name="E:PWDA.Switches.Relay.AfterGetContact">
+	<summary>
+ Событие, возникающее после получения текущего состояния исполнительной части коммутационного аппарата. Предназначено для использования в производных классах.
+ </summary>
+</member><member name="M:PWDA.Switches.Relay.#ctor">
+	<summary>
+ Конструктор класса по умолчанию. Создаёт выключенный коммутационный аппарат с одним нормально разомкнутым контактом.
+ </summary>
+</member><member name="M:PWDA.Switches.Relay.#ctor(PWDA.Switches.State)">
+	<summary>
+ Создаёт коммутационный аппарат с одним нормально разомкнутым контактом и переводит его в заданное состояние.
+ </summary>
+	<param name="state">Состояние коммутационного аппарата.</param>
+</member><member name="M:PWDA.Switches.Relay.#ctor(System.String)">
+	<summary>
+ Создаёт выключенный коммутационный аппарат с подписью с одним нормально разомкнутым контактом.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+</member><member name="M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State)">
+	<summary>
+ Создаёт коммутационный аппарат с подписью с одним нормально разомкнутым контактом и переводит его в заданное состояние.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="state">Состояние коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+</member><member name="M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State,PWDA.Switches.Contact)">
+	<summary>
+ Создаёт коммутационный аппарат с подписью с одним контактом, определённым пользователем, и переводит его в заданное состояние.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="state">Состояние коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+	<param name="contact">Управляемый контакт.</param>
+</member><member name="M:PWDA.Switches.Relay.#ctor(System.String,PWDA.Switches.State,System.Collections.Generic.List{PWDA.Switches.Contact})">
+	<summary>
+ Создаёт коммутационный аппарат с подписью с группой контактов, определённой пользователем, и переводит его в заданное состояние.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="state">Состояние коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.State"/>).</param>
+	<param name="contacts">Управляемая группа контактов (см. свойство <see cref="P:PWDA.Switches.Relay.Contacts"/>).</param>
+</member><member name="P:PWDA.Switches.Relay.Contacts">
+	<summary>
+ Исполнительная часть коммутационного аппарата (группа контактов).
+ </summary>
+	<remarks>Доступно только для чтения.</remarks>
+	<value>Перечисляемый список контактов коммутационного аппарата.</value>
+</member><member name="M:PWDA.Switches.Relay.Switch_Handler(PWDA.Switches.State,PWDA.Switches.State@)">
+	<summary>
+ Обеспечивает переключение управляемых контактов при переключении коммутационного аппарата.
+ </summary>
+	<param name="oldState">Текущее состояние коммутационного аппарата.</param>
+	<param name="newState">Новое состояние коммутационного аппарата. Доступно для редактирования.</param>
+	<remarks>Доступно членам текущего экземпляра класса.</remarks>
+</member><member name="M:PWDA.Switches.Relay.GetContact(System.String)">
+	<summary>
+ Получает контакт по его подписи.
+ </summary>
+	<remarks>Если коммутационный аппарат имеет несколько контактов с одинаковой подписью, возвращается только первый из них.</remarks>
+ Выборка контактов
+ <param name="label">Искомая подпись контакта.</param>
+	<returns>Искомый контакт.</returns>
+</member><member name="M:PWDA.Switches.Relay.GetContact(PWDA.Switches.State)">
+	<summary>
+ Получает контакт по его состоянию.
+ </summary>
+	<remarks>Если коммутационный аппарат имеет несколько контактов, находящихся в одинаковом состоянии, возвращается только первый из них.</remarks>
+	<param name="state">Искомое состояние контакта.</param>
+</member><member name="M:PWDA.Switches.Relay.GetContacts(System.String)">
+	<summary>
+ Возвращает список контактов с заданной подписью
+ </summary>
+	<param name="label">Искомая подпись контакта.</param>
+	<returns>List(Of Contacts)</returns>
+</member><member name="M:PWDA.Switches.Relay.GetContacts(PWDA.Switches.State)">
+	<summary>
+ Возвращает список контактов, находящихся в заданном состоянии.
+ </summary>
+	<returns>Перечисляемый список контактов.</returns>
+</member><member name="T:PWDA.Switches.Relay">
+	<summary>
+ Коммутационный аппарат дистанционного управления
+ </summary>
+</member><member name="F:PWDA.Switches.NetworkRelay._connection">
+	<summary>
+ Строка подключения к удалённому коммутационному аппарату.
+ </summary>
+	<remarks>Доступен только членам внутри текущего экземпляра класса.</remarks>
+</member><member name="F:PWDA.Switches.NetworkRelay._autosync">
+	<summary>
+ Автоматическая синхноизация с удалённым устройством.
+ </summary>
+	<remarks>Доступен только членам внутри текущего экземпляра класса.</remarks>
+</member><member name="M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.Boolean)">
+	<summary>
+ Создаёт выключенный дистанционный коммутационный аппарат с заданной строкой подключения и одним нормально разомкнутым контактом.
+ </summary>
+	<param name="ConnectionString">
+ Строка подключения к удалённому коммутационному аппарату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).
+ </param>
+	<param name="AutoSync">Автоматическая синхноизация с удалённым устройством (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.AutoSync"/>). По умолчанию равен <c>False</c>.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает при установке параметру <paramref name="AutoSync"/> значения <c>True</c> в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,System.Boolean)">
+	<summary>
+ Создаёт выключенный дистанционный коммутационный аппарат с заданной строкой подключения, подписью и одним нормально разомкнутым контактом.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="ConnectionString">Строка подключения к удалённому коммутационному аппарату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).</param>
+	<param name="AutoSync">Автоматическая синхноизация с удалённым устройством (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.AutoSync"/>). По умолчанию равен <c>False</c>.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает при установке параметру <paramref name="AutoSync"/> значения <c>True</c> в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,PWDA.Switches.Contact,System.Boolean)">
+	<summary>
+ Создаёт выключенный дистанционный коммутационный аппарат с заданной строкой подключения, подписью и одним контактом, заданным пользователем.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>).</param>
+	<param name="ConnectionString">Строка подключения к удалённому коммутационному аппарату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).</param>
+	<param name="contact">Контакт исполнительной части (см. свойство <see cref="P:PWDA.Switches.Relay.Contacts"/>)</param>
+	<param name="AutoSync">Автоматическая синхноизация с удалённым устройством (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.AutoSync"/>). По умолчанию равен <c>False</c>.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает при установке параметру <paramref name="AutoSync"/> значения <c>True</c> в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.#ctor(System.String,System.String,System.Collections.Generic.List{PWDA.Switches.Contact},System.Boolean)">
+	<summary>
+ Создаёт выключенный дистанционный коммутационный аппарат с заданной строкой подключения, подписью и исполнительной частью, определённой пользователем.
+ </summary>
+	<param name="label">Подпись коммутационного аппарата (см. свойство <see cref="P:PWDA.Switches.SimpleSwitch.Label"/>)</param>
+	<param name="ConnectionString">Строка подключения к удалённому коммутационному аппарату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).</param>
+	<param name="contacts">Исполнительная часть (группа контактов). См. свойство <see cref="P:PWDA.Switches.Relay.Contacts"/></param>
+	<param name="AutoSync">Автоматическая синхноизация с удалённым устройством (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.AutoSync"/>). По умолчанию равен <c>False</c>.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает при установке параметру <paramref name="AutoSync"/> значения <c>True</c> в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="P:PWDA.Switches.NetworkRelay.ConnectionString">
+	<summary>
+ Строка подключения к удалённому коммутационному аппарату.
+ </summary>
+	<value>String</value>
+	<exception cref="T:System.ArgumentException">Возникает в случае передачи неверной строки подключения.</exception>
+</member><member name="P:PWDA.Switches.NetworkRelay.AutoSync">
+	<summary>
+ Автоматическая синхноизация с удалённым устройством.
+ </summary>
+	<remarks>При включении автоматической синхронизации происходит автоматическая загрузка состояния исполнительной части с удалённого коммутационного аппарата.</remarks>
+	<value>Boolean</value>
+	<exception cref="T:System.InvalidOperationException">Возникает при установке данному свойству значения <c>True</c> в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.Download">
+	<summary>
+ Загружает текущее состояние исполнительной части коммутационного аппарата из удалённого устройства.
+ </summary>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.Download(System.String)">
+	<summary>
+ Переключает удалённый коммутационный аппарат, заданный новой строкой подключения, в состояние текущего экземпляра класса.
+ </summary>
+	<remarks>Метод изменяет строку подключения.</remarks>
+	<param name="ConnectionString">Новая строка подключения к удалённому коммутационному аппапату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).</param>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.Upload">
+	<summary>
+ Переключает удалённый коммутационный аппарат в состояние текущего экземпляра класса.
+ </summary>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при передаче данных удалённому коммутационному аппарату.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.Upload(System.String)">
+	<summary>
+ Переключает удалённый коммутационный аппарат, заданный новой строкой подключения, в состояние текущего экземпляра класса.
+ </summary>
+	<remarks>Метод изменяет строку подключения.</remarks>
+	<param name="ConnectionString">Новая строка подключения к удалённому коммутационному аппапату (см. свойство <see cref="P:PWDA.Switches.NetworkRelay.ConnectionString"/>).</param>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при передаче данных удалённому коммутационному аппарату.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.GetState_Handler">
+	<summary>
+ Автоматическая синхронизация текущего экземпляра класса с удалённым коммутационным аппаратом при запросе текущего состояния исполнительной или воспринимающей части аппарата. 
+ Обработчик активен при включённой автоматической синхронизации.
+ </summary>
+	<remarks>Доступен членам текущего экземпляра класса.</remarks>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при получении данных от удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.NetworkRelay.SetState_Handler">
+	<summary>
+ Автоматическая синхронизация текущего экземпляра класса с удалённым коммутационным аппаратом при изменении текущего состояния воспринимающей части аппарата. 
+ Обработчик активен при включённой автоматической синхронизации.
+ </summary>
+	<remarks>Доступен членам текущего экземпляра класса.</remarks>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки при передаче данных удалённому коммутационному аппарату.</exception>
+</member><member name="T:PWDA.Switches.NetworkRelay">
+	<inheritdoc/>
+	<summary>
+ Коммутационный аппарат, управляемый сетевыми сообщениями.
+ </summary>
+</member><member name="F:PWDA.Switches.Connection._connString">
+	<summary>
+ Строка подключения к удалённому коммутационному аппарату.
+ </summary>
+	<remarks>Доступно только членам текущего экземпляра класса.</remarks>
+</member><member name="T:PWDA.Switches.Connection.Parts">
+	<summary>
+ Перечисление имён фрагметов строки подключения
+ </summary>
+	<remarks>Доступен членам текущего экземпляра класса и в наследуемых классах.</remarks>
+</member><member name="F:PWDA.Switches.Connection._templates">
+	<summary>
+ Перечень фрагментов строки подключения и соответствующих им шаблонов регулярных выражений.
+ </summary>
+	<remarks>Доступно только членам текущего экземпляра класса.</remarks>
+</member><member name="F:PWDA.Switches.Connection._connParts">
+	<summary>
+ Перечень фрагментов строки подключения и соответствующих им URL.
+ </summary>
+	<remarks>Доступно только членам текущего экземпляра класса.</remarks>
+</member><member name="M:PWDA.Switches.Connection.#ctor(System.String)">
+	<summary>
+ Конструктор класса.
+ </summary>
+ Конструктор
+ <param name="ConnectionString">Строка подключения к управляемому по сети коммутационному аппарату <see cref="P:PWDA.Switches.Connecion.ConnectionString"/>.</param>
+	<exception cref="T:System.ArgumentException">Возникает в случае передачи методу неверной строки подключения.</exception>
+</member><member name="P:PWDA.Switches.Connection.ConnectionString">
+	<summary>
+ Строка подключения к удалённому коммутационному аппарату.
+ </summary>
+	<value>String</value>
+ Строка подключения
+ <exception cref="T:System.ArgumentException">Возникает в случае передачи неверной строки подключения.</exception>
+</member><member name="M:PWDA.Switches.Connection.CreateUri(System.String,PWDA.Switches.Connection.Parts)">
+	<summary>
+ Формирует URL запроса для указанной команды.
+ </summary>
+	<param name="connstring">Строка подключения к удалённому коммутационному аппарату <see cref="P:PWDA.Switches.Connecion.ConnectionString"/>.</param>
+	<param name="part">Идентификатор фрагмента строки подключения (см. <see cref="T:PWDA.Switches.Connection.Parts"/>).</param>
+	<returns><see cref="T:Sysyem.Uri"/></returns>
+	<exception cref="T:System.UriFormatException">Строка подключения к службе управления внешними устройствами имеет неверный формат.</exception>
+</member><member name="P:PWDA.Switches.Connection.ConnectionParts">
+	<summary>
+ Перечень фрагментов строки подключения и соответствующих им URL.
+ </summary>
+	<remarks>Доступно в наследуемых классах.</remarks>
+	<value>Dictionary(Of Parts, Uri)</value>
+</member><member name="M:PWDA.Switches.Connection.Write(PWDA.Switches.State)">
+	<summary>
+ Подключается к удалённому коммутационному аппарату и устанавливает его состояние, заданное передаваемым агрументом.
+ </summary>
+	<param name="state">Состояние, в которое будет переведён удалённый коммутационный аппарат.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки изменения состояния удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.Connection.Write(PWDA.Switches.ISwitchable)">
+	<summary>
+ Подключается к удалённому коммутационному аппарату и устанавливает его в состояние, аналогичное состоянию аппарата-мастера.
+ </summary>
+	<param name="device">Коммутационный аппарат-мастер.</param>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки изменения состояния удалённого коммутационного аппарата.</exception>
+</member><member name="M:PWDA.Switches.Connection.Read">
+	<summary>
+ Подключается к удалённому коммутационному аппарату и получает его текущее состояние.
+ </summary>
+	<returns><see cref="T:PWDA.Switches.State"/></returns>
+	<exception cref="T:System.InvalidOperationException">Возникает в случае ошибки чтения состояния удалённого коммутационного аппарата.</exception>
+</member><member name="T:PWDA.Switches.Connection">
+	<summary>
+ Подключение к удалённому коммутационному аппарату, управляемому сетевыми сообщениями.
+ </summary>
+	<remarks>Доступен из текущей сборки.</remarks>
+</member>
+</members>
+</doc>

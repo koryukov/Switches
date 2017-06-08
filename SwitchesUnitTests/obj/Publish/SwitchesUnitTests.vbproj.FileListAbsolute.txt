@@ -1,0 +1,12 @@
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\SwitchesUnitTests.dll
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\SwitchesUnitTests.pdb
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\SwitchesUnitTests.xml
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\Switches.dll
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\Switches.pdb
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\bin\Publish\Switches.xml
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.vbprojResolveAssemblyReference.cache
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.Resources.resources
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.vbproj.GenerateResource.Cache
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.dll
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.xml
+D:\PWDA\Разработка ПО\Switches\SwitchesUnitTests\obj\Publish\SwitchesUnitTests.pdb
